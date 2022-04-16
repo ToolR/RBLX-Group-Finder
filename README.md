@@ -4,7 +4,9 @@ A simple group finder which checks if the group is joinable and if there's no ow
 
 # Setting up 
 
-Replace "YOUR WEBHOOK HERE" with a discord channel webhook of your choice. 
+1. run "pip install discord_webhook" in your terminal/cmd
+
+2. Replace "YOUR WEBHOOK HERE" with a discord channel webhook of your choice. 
 This code of line is found in main.py, 15th line.
 
 ``` webhook = DiscordWebhook(url="YOUR WEBHOOK HERE")```
